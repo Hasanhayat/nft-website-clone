@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav>img{
+    width: 180px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items:center ;
+    font-size: 10px;
+    
+}
+li{
+    padding: 15px;
+    cursor: pointer;
+}
+li:hover{
+    color: #BFC500;
+}
+.img1>img{
+    width: 100%;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.d1>img,.d2>img{
+    width: 170px;
+    height: 170px;
+}
+.d1,.d2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.para>.p1{
+    font-weight: 900;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.para>.p2{
+    padding-right: 150px;
+    font-weight: 100;
+    font-family: "Montserrat";
+    text-align: justify;
+    font-size: 16px;
+}
+.fair{
+    color: #bfc500;
+    font-size: 26px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 30px;
+}
+.bonding{
+    color: white;
+    margin-left: 30px;
+    font-size: 16.8px;
+    font-family: "Montserrat", sans-serif;
+}
+.f{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 30px;
+}
+.p{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 80;
+}
+.green{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #bfc500;
+    margin: 0 30px 0 30px;
+    height: 70px;
+    padding: 1.3rem;
+}
+.green>h1{
+    flex-basis: 200px;
+    color: black;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 23px;
+}
+.green>p{
+    flex-basis: 350px;
+    color: #000;
+
+}
+.green>button{
+    flex-basis: 200px;
+    color: #bfc500;
+    background-color: black;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 16px;
+    height: 75px;
+    width: 240px;
+}
+hr{
+    margin: 40px 30px 0 30px;
+}
+.sec4{
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+}
+.sec4>.para2{
+    flex-basis: 650px;
+    word-spacing: 3px;
+    line-height: 25px;
+}
+.para2>h1{
+    font-weight: bolder;
+    font-size: 28px;
+}
+.sec4>img{
+    width: 340px;
+}
+.para2>p>a{
+    color: #BFC500;
+}
+.para3{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.para3>h1,.para4>h1,.para5>h1{
+    font-size: 2em;
+}
+.para3>p{
+    margin-right: 250px;
+    word-spacing: 3px;
+    line-height: 25px;
+}
+.img2{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.card>img{
+    width: 100px;
+}
+.card>p{
+    flex-basis: 100px;
+    font-size: .8em;
+    font-weight: 100;
+
+}
+.t40{
+    margin-top: 40px;
+}
+.t50{
+    margin-top: 50px;
+}
+.b40{
+    margin-bottom: 40px;
+}
+.sec6{
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+}
+.sec6>img{
+    width: 162px;
+}
+.para4{
+    flex-basis: 700px;
+    word-spacing: 5px;
+}
+.para5{
+    margin: 30px;
+    word-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.price>h1{
+    font-size: 16px;
+    color: #bfc500;
+    margin-right: 60px;
+}
+.imgcon{
+    display: flex;
+}
+.s>img{
+    background-color: #BFC500;
+    width: 350px;
+}
+.price>p{
+    text-decoration: line-through;
+}
