@@ -122,6 +122,11 @@ li:hover{
     height: 75px;
     width: 240px;
 }
+.green>button:hover{
+    background-color: white;
+    color: black;
+    
+}
 hr{
     margin: 40px 30px 0 30px;
 }
