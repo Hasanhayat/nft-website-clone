@@ -122,6 +122,10 @@ li:hover{
     height: 75px;
     width: 240px;
 }
+.green>button:hover{
+    color: #000;
+    background-color: white;
+}
 hr{
     margin: 40px 30px 0 30px;
 }
@@ -223,4 +227,52 @@ hr{
 }
 .price>p{
     text-decoration: line-through;
+}
+/* // Screen Size 1400px check */
+@media (max-width: 1660px) {
+
+}
+
+/* // Screen Size 1200px check */
+@media (max-width: 1399px) {
+    
+}
+
+/* // Screen Size 992px check */
+@media (max-width: 1199px) {
+
+}
+
+/* // Screen Size 768px check */
+@media (max-width: 991px) {
+
+}
+
+/* // Screen Size 576px check */
+@media (max-width: 767px) {
+    body{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
+/* // Screen Size All mobile check */
+@media (max-width: 575px) {
+    body{
+        margin: 0 20px 0 20px;
+    }
+    .img1>img{
+        width: 100vh;
+
+    }
+    .img{
+        display: none;
+    }
+    .sec2{
+        margin-left: 0;
+    }
+    .green{
+        display: none;
+    }
 }
