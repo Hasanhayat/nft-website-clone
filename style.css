@@ -275,4 +275,17 @@ hr{
     .green{
         display: none;
     }
+    ul{
+        display: none;
+    }
+    .sec4>img{
+        display: none;
+    }
+    .img2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .s{
+        display: none;
+    }
 }
