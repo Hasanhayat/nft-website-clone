@@ -257,6 +257,7 @@ hr{
 }
 
 
+
 /* // Screen Size All mobile check */
 @media (max-width: 575px) {
     body{
@@ -325,7 +326,7 @@ hr{
         flex-direction: column;
         gap: 15px;
     }
-    
+
     .card{
         flex-direction: row;
     }
